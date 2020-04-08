@@ -9,7 +9,6 @@ let options = {
 axios
   .get("http://localhost:3000/random")
   .then(function (response) {
-    console.log(response.data.message);
     url = response.data.message;
     download(url, options);
     wallpaper.set("./dog.jpg");
