@@ -1,0 +1,6 @@
+projectpath: ""
+projecttype: Node
+buildtool: npm
+buildfile: package.json
+buildcmd: npm start
+outputpath: ""
